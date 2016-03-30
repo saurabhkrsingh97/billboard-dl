@@ -15,5 +15,3 @@ def youtube(search_term='Coldplay'):
     yt_full_link = 'https://www.youtube.com' + yt_partial_link
     # print(yt_full_link)
     return yt_full_link
-
-# youtube('Coldplay')

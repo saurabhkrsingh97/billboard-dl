@@ -16,9 +16,11 @@ Clone the repository locally, and open a terminal window in the folder.
 Running `python3 main.py` downloads the top 5 songs (default) in a sub-folder in the Billboard folder.
 Folder is created if not already present.
 
-The default value of the number of songs `top_n` can be overriden by changing the value in main.py.
+The default value of the number of songs `top_n` can be overridden by passing an argument with main.py.
+
+**Example:** `python3 main.py 10`
 
 ### License
 *Please see [LICENSE](https://github.com/saurabhkrsingh97/billboard-dl/blob/master/LICENSE)*
 
-*:octocat: Suggesions for improvement are welcome!* :octocat:
+*:octocat: Suggestion for improvement are welcome!* :octocat:

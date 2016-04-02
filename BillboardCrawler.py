@@ -10,7 +10,7 @@ def bill(top_n=20):
     top_n_songs = ''
     r = requests.get(billboard_url)
     data = r.content
-    soup = BeautifulSoup(data)
+    soup = BeautifulSoup(data, 'html.parser')
     all_songs = soup.find_all('div', {'class': 'chart-row__title'})
     songs = all_songs[:top_n]
     for song in songs:

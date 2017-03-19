@@ -14,13 +14,13 @@
 
 Clone the repository locally, and open a terminal window in the folder.
 
-Running `python3 billboard_dl.py` downloads the top 5 songs (default) in a sub-folder in the Billboard folder.
+Running `python3 billboard-dl.py` downloads the top 5 songs (default) in a sub-folder in the Billboard folder.
 Folder is created if not already present.
 
-The default value of the number of songs can be overridden by passing an argument with billboard-dl.py, or by changing the value of `TOP_N` variable in code.
+The default value of the number of songs can be overridden by passing an argument with *billboard-dl.py*, or by changing the value of `TOP_N` variable in code.
 
 ###### Example:
-`python3 billboard_dl.py 10` - Downloads the top 10 songs' music videos from the Billboard list.
+`python3 billboard-dl.py 10` - Downloads the top 10 songs' music videos from the Billboard list.
 
 ----------
 ### License

@@ -1,5 +1,5 @@
 ## Billboard Downloader
-###### Python3 script(s) to download music videos of the Top 'n' songs from the [Billboard Hot 100](http://www.billboard.com/charts/hot-100) list.
+###### Python3 script to download music videos of the Top 'n' songs from the [Billboard Hot 100](http://www.billboard.com/charts/hot-100) list.
 
 ----------
 ### Installation & Usage
@@ -17,7 +17,7 @@ Clone the repository locally, and open a terminal window in the folder.
 Running `python3 main.py` downloads the top 5 songs (default) in a sub-folder in the Billboard folder.
 Folder is created if not already present.
 
-The default value of the number of songs `top_n` can be overridden by passing an argument with main.py.
+The default value of the number of songs `top_n` can be overridden by passing an argument with billboard-dl.py, or by changing the value of `TOP_N` variable in code.
 
 ###### Example:
 `python3 main.py 10` - Downloads the top 10 songs' music videos from the Billboard list.
